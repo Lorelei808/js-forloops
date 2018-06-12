@@ -8,7 +8,10 @@ Write a for-loop that will iterate through 20 numbers (starting at 1 and ending 
 .
 "Now serving 20."
 */
-
+console.log("1------------------------------");
+for(var i = 1; i < 21; i++){
+console.log("Now serving " + i);
+}
 
 /* 2) Pop Charts
 Write a for-loop that will iterate through the topFive array below and console.log the following message:
@@ -19,8 +22,19 @@ This week's chart buster is: 'Let Me Love You.'
 This week's chart buster is: '24K Magic.'
 */
 
+/* 2) Pop Charts
+Write a for-loop that will iterate through the topFive array below and console.log the following message:
+This week's chart buster is: 'Closer.'
+This week's chart buster is: 'Starboy.'
+This week's chart buster is: 'I Feel It Coming.'
+This week's chart buster is: 'Let Me Love You.'
+This week's chart buster is: '24K Magic.'
+*/
+console.log("2-----------------------------");
 var topFive = ["Closer", "Starboy", "I Feel It Coming", "Let Me Love You", "24K Magic"];
-
+for(var i = 0; i < topFive.length; i++){
+console.log("This week's chart buster is: " + "'" + topFive[i] + "'"); 
+}
 
 /* 3) Dead Presidents
 Declare a variable named `presidents` and assign it to an array containing the following Presidents: Washington, Adams, Jefferson, Madison and Monroe.
@@ -41,6 +55,13 @@ This function will iterate through the person parameter and console.log the foll
 
 "President person was a great leader."
 */
+console.log("3------------------------------");
+
+var presidents = ["Washington", "Adams", "Jackson", "Madison", "Monroe"];
+for(var i = 0; i < 5; i++){
+  console.log("The value at " + i + " is" + " " + presidents[i] + ".");
+}
+
 
 
 /* 4) Line Number
